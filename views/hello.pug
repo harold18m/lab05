@@ -1,0 +1,224 @@
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 
+    link(rel='stylesheet' href='./css/style.css' type='text/css') 
+
+body
+    header.masthead
+        .boards-menu
+            button.boards-btn.btn
+                i.fab.fa-trello.boards-btn-icon
+                | Boards
+            .board-search
+                input.board-search-input(type='search' aria-label='Board Search')
+                i.fas.fa-search.search-icon(aria-hidden='true')
+        .logo
+            h1
+                i.fab.fa-trello.logo-icon(aria-hidden='true')
+                | Trello
+        .user-settings
+            button.user-settings-btn.btn(aria-label='Create')
+                i.fas.fa-plus(aria-hidden='true')
+            button.user-settings-btn.btn(aria-label='Information')
+                i.fas.fa-info-circle(aria-hidden='true')
+            button.user-settings-btn.btn(aria-label='Notifications')
+                i.fas.fa-bell(aria-hidden='true')
+            button.user-settings-btn.btn(aria-label='User Settings')
+                i.fas.fa-user-circle(aria-hidden='true')
+    // End of masthead
+    // Board info bar
+    section.board-info-bar
+        .board-controls
+            button.board-title.btn
+                h2 Web Development
+            button.star-btn.btn(aria-label='Star Board')
+                i.far.fa-star(aria-hidden='true')
+            button.personal-btn.btn Personal
+            button.private-btn.btn
+                i.fas.fa-briefcase.private-btn-icon(aria-hidden='true')
+                | Private
+        button.menu-btn.btn
+            i.fas.fa-ellipsis-h.menu-btn-icon(aria-hidden='true')
+            | Show Menu
+    // End of board info bar
+    // Lists container
+    section.lists-container
+        .list
+            h3.list-title Tasks to Do
+            ul.list-items
+                li Complete mock-up for client website
+                li Email mock-up to client for feedback
+                li Update personal website header background image
+                li Update personal website heading fonts
+                li Add google map to personal website
+                li Begin draft of CSS Grid article
+                li Read new CSS-Tricks articles
+                li Read new Smashing Magazine articles
+                li Read other bookmarked articles
+                li Look through portfolios to gather inspiration
+                li Create something cool for CodePen
+                li Post latest CodePen work on Twitter
+                li Listen to new Syntax.fm episode
+                li Listen to new CodePen Radio episode
+            button.add-card-btn.btn Add a card
+        .list
+            h3.list-title Completed Tasks
+            ul.list-items
+                li Clear email inbox
+                li Finalise requirements for client web design
+                li Begin work on mock-up for client website
+            button.add-card-btn.btn Add a card
+        .list
+            h3.list-title Topics/Concepts to Revise
+            ul.list-items
+                li HTML Elements
+                li HTML Form Validation
+                li HTML Structured Data
+                li Advanced CSS Selectors
+                li CSS Transforms
+                li CSS Animations
+                li CSS Flexbox
+                li CSS Grid
+                li CSS Methodologies (BEM, SMACSS etc.)
+                li SASS/SCSS
+                li Layout Fallbacks
+                li Responsive Design
+                li Design Patterns
+                li JavaScript Fundamentals
+                li JavaScript OOP
+                li JavaScript DOM Manipulation
+                li JavaScript Debugging Techniques
+                li Node Package Manager
+                li Grunt/Gulp
+                li GitHub
+                li Git Commands
+                li Web Accessibility
+                li Web Performance
+                li Web Hosting
+                li Browser Dev Tools
+                li Google Analytics
+                li Basic Photoshop/Sketch Usage
+            button.add-card-btn.btn Add a card
+        .list
+            h3.list-title Topics/Concepts to Learn
+            ul.list-items
+                li HTML 5.2 New Features
+                li Responsive Images (picture element, srcset/sizes etc.)
+                li Serverless
+                li Variable Fonts
+                li Shadow DOM
+                li ES6+
+                li JSON &amp; AJAX
+                li API&apos;s
+                li JavaScript Patterns
+                li JavaScript Testing
+                li jQuery
+                li SVG
+                li React JS
+                li Angular JS
+                li TypeScript
+                li Vue JS
+                li Node JS
+                li Webpack
+                li SEO Techniques
+                li HTML Emails
+                li WordPress
+                li Static Site Generators (Jekyll, Hugo, Gatsby etc.)
+            button.add-card-btn.btn Add a card
+        .list
+            h3.list-title Useful Websites for Learning
+            ul.list-items
+                li Code Academy
+                li CodePen
+                li Codrops
+                li CSS-Tricks
+                li Free Code Camp
+                li Khan Academy
+                li Lynda
+                li Medium
+                li Mozilla Developer Network
+                li Stack Overflow
+                li Team Treehouse
+                li Tuts Plus
+                li Udemy
+                li WPSessions
+                li YouTube
+            button.add-card-btn.btn Add a card
+        .list
+            h3.list-title Web Dev YouTube Channels
+            ul.list-items
+                li Adam Khoury
+                li Brad Hussey
+                li CSS-Tricks (Chris Coyier)
+                li Derek Banas
+                li DevTips (Travis Neilson)
+                li Free Code Camp
+                li Fun Fun Function (Mattias Petter Johansson)
+                li Google Chrome Developers
+                li Layout Land (Jen Simmons)
+                li Learn Code Academy
+                li Level Up Tuts (Scott Tolinski)
+                li Mackenzie Child
+                li Rachel Andrew
+                li The Net Ninja (Shaun Pelling)
+                li The New Boston (Bucky Roberts)
+                li Traversy Media (Brad Traversy)
+                li Wes Bos
+            button.add-card-btn.btn Add a card
+        .list
+            h3.list-title CodePen Ideas
+            ul.list-items
+                li Something cool with CSS Grid
+                li Something cool with CSS Flexbox
+                li Something cool with CSS animations
+                li Something cool with CSS gradients
+                li Something cool with CSS pseudo-elements
+                li Something cool with SVG
+                li Something cool with JavaScript
+                li Something cool with all of the above
+            button.add-card-btn.btn Add a card
+        .list
+            h3.list-title Practise Website Ideas
+            ul.list-items
+                li Airsoft/Paintballing Centre
+                li Bar/Pub
+                li Bicycle Shop/Repair
+                li Cafe/Coffee Shop
+                li Car Showroom/Garage/Repair/Parts
+                li Construction Company
+                li Fitness/Gym/Leisure Centre
+                li Nightclub
+                li Party Planning Company
+                li PC Build/Repair Service
+                li Portfolio/CV
+                li Real Estate/AirBnB
+                li Restaurant
+                li Skiing/Snowboarding Centre/Company
+                li Streaming Service for Movies/TV
+                li Streaming Service for Video Games
+                li Taxi Service
+                li Travel Agency
+                li Zoo/Safari Park
+            button.add-card-btn.btn Add a card
+        .list
+            h3.list-title JavaScript Project Ideas
+            ul.list-items
+                li Analog Clock
+                li Basic Quiz
+                li Bill/Cost Splitter
+                li Countdown Timer
+                li Form Validator
+                li Geolocation (Find places near you etc.)
+                li Gif Search
+                li Note Taking App
+                li Random Name Picker
+                li Secret Message Encoder/Decoder
+                li Sortable Image Gallery
+                li Sortable Table
+                li Tip Calculator
+                li To-Do List
+                li Unit Converter
+            button.add-card-btn.btn Add a card
+        button.add-list-btn.btn Add a list
+// End of lists container
